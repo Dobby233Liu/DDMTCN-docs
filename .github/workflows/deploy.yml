@@ -12,5 +12,5 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        #BUILD_DIR: dist/
-        TARGET_BRANCH: master
+        BUILD_DIR: .
+        TARGET_BRANCH: gh-pages
