@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+# heroImage: /hero.png
 heroText: DDLC 中文 Mod 分部
 tagline: 简单好用的 Mod 模板，助你快速制作属于自己的 Mod
 actionText: 开始 →
