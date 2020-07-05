@@ -7,9 +7,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-
+    #- run: mkdir dist
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: dist/
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #BUILD_DIR: dist/
+        TARGET_BRANCH: master
